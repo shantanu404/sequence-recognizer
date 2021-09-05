@@ -18,10 +18,10 @@ def generate_graph(sequence):
         bins = sequence.split(':')
 
         if any(map(lambda x: len(x) > LIMIT, bins)):
-            return '<h1> Sequence too long!'
+            return '<h1> Sequence too long! </h1>'
 
         output = gen_graph(*bins)
         return output
     else:
-        return ''
+        return '<h2>Only binary digits and space is allowed</h2>'
 
