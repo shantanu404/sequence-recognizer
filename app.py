@@ -23,6 +23,5 @@ def generate_graph(sequence):
         output = gen_graph(*bins)
         return output
     else:
-        return '<h1> Enter binary sequences (anything other than 0 or 1 is \
-        considered invalid) </h1>'
+        return ''
 

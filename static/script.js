@@ -1,5 +1,6 @@
 function input_change(evt) {
     let result = document.getElementById('result');
+    result.innerHTML = '<div id="spinner"><div></div><div></div><div></div><div></div></div>';
 
     let seq = evt.target.value
                         .trim()
